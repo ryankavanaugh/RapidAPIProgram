@@ -27,8 +27,6 @@ const RapidAPIProgram = async () => {
         NBADataArray.forEach(item => {
             if (item.nbaFranchise == true){
                 NBATeams = NBATeams + item.name + "\n"
-                console.log(item.city)
-                console.log(item.leagues.standard.conference)
             }
         });
         
