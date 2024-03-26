@@ -17,7 +17,7 @@ const RapidAPIProgram = async () => {
         // API Response
         const response = await axios.request(options);
 
-        // Separating out relevant data from payload
+        // Separate out relevant Team data from rest of payload
         const NBADataArray = response.data.response
 
         // Data variable to list all team names
